@@ -1,0 +1,13 @@
+package com.krakedev;
+
+public class VehiculoTest {
+
+	public static void main(String[] args) {
+
+		Vehiculo v;
+		
+		v = new Vehiculo();
+		System.out.print("Hola mundo");
+	}
+
+}

@@ -1,0 +1,24 @@
+package com.krakedev;
+
+public class VehiculoTest {
+
+	public static void main(String[] args) {
+
+		Vehiculo v;
+		
+		v = new Vehiculo();
+
+		System.out.print("Año: " + v.anio);
+		System.out.print("Marca: " + v.marca);
+		System.out.print("Modelo: " + v.modelo);
+		
+		v.anio = "2012";
+		v.marca = "Chevrolet";
+		v.modelo = "Nuevo";
+		
+		System.out.print("Año: " + v.anio);
+		System.out.print("Marca: " + v.marca);
+		System.out.print("Modelo: " + v.modelo);
+	}
+
+}
