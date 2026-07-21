@@ -1,0 +1,49 @@
+package com.krakedevrestaurante;
+
+public class TestPlato {
+
+	public static void main(String[] args) {
+		Plato platoA = new Plato();
+		
+		System.out.println("=====================Plato A: Creado=====================");
+		
+		System.out.println("Nombre de platillo: " + platoA.nombre);
+		System.out.println("Precio: " + platoA.precio);
+		System.out.println("Tipo: " + platoA.tipo);
+		System.out.println("Disponible: " + platoA.disponible);
+		
+		System.out.println("=====================Plato A: Valores asignados=====================");
+		
+		platoA.nombre = "Arroz Marinero";
+		platoA.precio = 7.50f;
+		platoA.tipo = "fuerte";
+		platoA.disponible = true;
+		
+		System.out.println("Nombre de platillo: " + platoA.nombre);
+		System.out.println("Precio: " + platoA.precio);
+		System.out.println("Tipo: " + platoA.tipo);
+		System.out.println("Disponible: " + platoA.disponible);
+		
+		System.out.println("=====================Plato B: Creado=====================");
+		
+		Plato platoB = new Plato();
+		
+		System.out.println("Nombre de platillo: " + platoB.nombre);
+		System.out.println("Precio: " + platoB.precio);
+		System.out.println("Tipo: " + platoB.tipo);
+		System.out.println("Disponible: " + platoB.disponible);
+		
+		System.out.println("=====================Plato B: Valores asignados=====================");
+		
+		platoB.nombre = "Cevichochos";
+		platoB.precio = 3.80f;
+		platoB.tipo = "Entrada";
+		platoB.disponible = false;
+		
+		System.out.println("Nombre de platillo: " + platoB.nombre);
+		System.out.println("Precio: " + platoB.precio);
+		System.out.println("Tipo: " + platoB.tipo);
+		System.out.println("Disponible: " + platoB.disponible);
+	}
+
+}

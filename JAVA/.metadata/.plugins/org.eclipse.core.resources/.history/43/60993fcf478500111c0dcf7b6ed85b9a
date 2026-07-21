@@ -1,0 +1,33 @@
+package com.krakedevrestaurante;
+
+public class TestRestaurante {
+
+	public static void main(String[] args) {
+		
+		Restaurante rest1;
+		
+		rest1 = new Restaurante();
+		
+		System.out.println("=====================Restaurante 1: Creado=====================");
+		
+		System.out.println("Nombre: " + rest1.nombre);
+		System.out.println("Direccion" + rest1.direccion);
+		System.out.println("Calificación" + rest1.calificacion);
+		
+		System.out.println("=====================Restaurante 1: Valores asignados=====================");
+		
+		rest1.nombre = "McDonal's";
+		rest1.direccion = "La Carolina";
+		rest1.calificacion = 4.5f; //Recordatorio = Java trata a los decimales como double, por defecto, lo correcto sería escribir una f al final 
+		
+		System.out.println("Nombre: " + rest1.nombre);
+		System.out.println("Direccion" + rest1.direccion);
+		System.out.println("Calificación" + rest1.calificacion);
+		
+		System.out.println("=====================Restaurante 1: Creado=====================");
+		
+		rest2
+		
+	}
+
+}
