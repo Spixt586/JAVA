@@ -1,0 +1,25 @@
+package com.krakedevrestaplatos;
+
+public class TestPlato {
+
+	public static void main(String[] args) {
+		
+		System.out.println("=====================Plato A: Creado=====================");
+
+		Plato platoA = new Plato();
+
+		System.out.println("Nombre del platillo" + platoA.nombre);
+		System.out.println("Tipo de plato" + platoA);
+		System.out.println("Precio" + platoA);
+		System.out.println("Disponible" + platoA);
+
+		System.out.println("=====================Plato A: Modificado=====================");
+
+		platoA.nombre = "Arroz Marinero";
+		platoA.nombre = "Arroz Marinero";
+		platoA.nombre = "Arroz Marinero";
+		platoA.nombre = "Arroz Marinero";
+
+	}
+
+}
