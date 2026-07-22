@@ -16,13 +16,11 @@ public class TestCalculadora {
 		r2 = c1.restar(5, 8);
 		r3 = c1.multiplicar(9, 10);
 		r4 = c1.dividir(40, 8);
-		r5 = c1.promediar(10,8,9);
 
 		System.out.println("Resultado de suma: " + r1);
 		System.out.println("Resultado de resta: " + r2);
 		System.out.println("Resultado de multiplicación: " + r3);
 		System.out.println("Resultado de divir: " + r4);
-		System.out.println("Resultado de promediar: " + r5);
 	}
 
 	
