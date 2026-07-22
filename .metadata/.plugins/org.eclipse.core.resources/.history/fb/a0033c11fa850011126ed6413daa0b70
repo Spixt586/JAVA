@@ -1,0 +1,15 @@
+package com.krakedev;
+
+public class TestCalculadora {
+
+	public static void main(String[] args) {
+		
+		Calculadora c1 = new Calculadora();
+		
+		c1.sumar(8, 5);
+		
+		System.out.println(c1);
+		
+	}
+
+}

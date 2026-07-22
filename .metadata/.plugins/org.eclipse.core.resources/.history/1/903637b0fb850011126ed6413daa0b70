@@ -1,0 +1,16 @@
+package com.krakedev;
+
+public class Mensajeria {
+	
+	public void saludar() {
+		
+		System.out.print("Hola como estan?");
+	}
+	
+	public void saludarPersona(String nombre, String apodo) {
+		
+		System.out.print("Hola " + nombre + "Tu apodo es: " + apodo);
+		
+	}
+
+}
