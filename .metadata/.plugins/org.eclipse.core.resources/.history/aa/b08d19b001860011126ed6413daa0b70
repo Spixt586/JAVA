@@ -23,11 +23,6 @@ public class TestCalculadora {
 		System.out.println("Resultado de multiplicación: " + r3);
 		System.out.println("Resultado de divir: " + r4);
 		System.out.println("Resultado de promediar: " + r5);
-		
-		Calculadora m1 = new Calculadora();
-		
-		m1.mostrarResultado();
-		
 	}
 
 	
