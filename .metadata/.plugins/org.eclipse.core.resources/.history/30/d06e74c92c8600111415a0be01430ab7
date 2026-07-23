@@ -15,10 +15,10 @@ public class TestCuadrado {
 		
 		Cuadrado r2 = new Cuadrado();
 		
-		r2.lado = 3;
+		r2.lado = 4;
 		
 		double resultadoPerimetro;
-		resultadoPerimetro = r2.calcularPerimetro();
+		resultadoPerimetro = r2.calcularArea();
 		
 		System.out.println("El Área de un cuadrado es: " + resultadoPerimetro);
 		
