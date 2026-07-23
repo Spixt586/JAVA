@@ -11,7 +11,7 @@ public class TestCuadrado {
 		double resultadoArea;
 		resultadoArea = r1.calcularArea();
 		
-		System.out.println("El Área de un cuadrado es: " + resultadoArea);
+		System.out.println("El Area de un cuadrado es: " + resultadoArea);
 		
 	}
 		
