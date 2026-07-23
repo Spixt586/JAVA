@@ -5,7 +5,6 @@ public class TestCuadrado {
 	public static void main(String[] args) {
 		
 		System.out.println("==========================Áreas de cuadrados==========================");
-		System.out.println("==========================Área del cuadrado 1==========================");
 
 		Cuadrado r1 = new Cuadrado();
 		
@@ -15,9 +14,6 @@ public class TestCuadrado {
 		resultadoArea = r1.calcularAreaCuadrado();
 		
 		System.out.println("El Área de un cuadrado es: " + resultadoArea);
-		
-		System.out.println("==========================Área del cuadrado 2==========================");
-		
 		Cuadrado r2 = new Cuadrado();
 		
 		r2.lado = 7;
@@ -26,9 +22,6 @@ public class TestCuadrado {
 		resultadoArea2 = r2.calcularAreaCuadrado();
 		
 		System.out.println("El Área de un cuadrado es: " + resultadoArea2);
-		
-		System.out.println("==========================Área del cuadrado 3==========================");
-		
 		Cuadrado r3 = new Cuadrado();
 		
 		r3.lado = 12;
@@ -62,7 +55,7 @@ public class TestCuadrado {
 		
 		System.out.println("El Área de un cuadrado es: " + resultadoPerimetro2);
 		
-		System.out.println("==========================Perímetro del cuadrado 3==========================");
+		System.out.println("==========================Perímetro del cuadrado 1==========================");
 		
 		Cuadrado r6 = new Cuadrado();
 		

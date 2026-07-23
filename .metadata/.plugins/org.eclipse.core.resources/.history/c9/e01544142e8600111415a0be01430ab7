@@ -3,12 +3,12 @@ package com.krakedev;
 public class Cuadrado {
 	public int lado;
 	
-	public double calcularAreaCuadrado() {
+	public double calcularArea() {
 		double areaCuadrado = lado * lado;
 		return areaCuadrado;
 	}
 	
-	public double calcularPerimetroCuadrado() {
+	public double calcularPerimetro() {
 		double perimetroCuadrado = (4 * lado);
 		return perimetroCuadrado;
 	}

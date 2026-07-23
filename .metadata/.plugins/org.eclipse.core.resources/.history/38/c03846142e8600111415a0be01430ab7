@@ -1,0 +1,27 @@
+package com.krakedev;
+
+public class TestCuadrado {
+
+	public static void main(String[] args) {
+
+		Cuadrado r1 = new Cuadrado();
+		
+		r1.lado = 4;
+		
+		double resultadoArea;
+		resultadoArea = r1.calcularArea();
+		
+		System.out.println("El Área de un cuadrado es: " + resultadoArea);
+		
+		Cuadrado r2 = new Cuadrado();
+		
+		r2.lado = 3;
+		
+		double resultadoPerimetro;
+		resultadoPerimetro = r2.calcularPerimetro();
+		
+		System.out.println("El Área de un cuadrado es: " + resultadoPerimetro);
+		
+	}
+		
+}

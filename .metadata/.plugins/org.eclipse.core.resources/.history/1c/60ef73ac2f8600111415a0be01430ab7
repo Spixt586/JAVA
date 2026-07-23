@@ -5,7 +5,6 @@ public class TestCuadrado {
 	public static void main(String[] args) {
 		
 		System.out.println("==========================Áreas de cuadrados==========================");
-		System.out.println("==========================Área del cuadrado 1==========================");
 
 		Cuadrado r1 = new Cuadrado();
 		
@@ -15,9 +14,6 @@ public class TestCuadrado {
 		resultadoArea = r1.calcularAreaCuadrado();
 		
 		System.out.println("El Área de un cuadrado es: " + resultadoArea);
-		
-		System.out.println("==========================Área del cuadrado 2==========================");
-		
 		Cuadrado r2 = new Cuadrado();
 		
 		r2.lado = 7;
@@ -26,9 +22,6 @@ public class TestCuadrado {
 		resultadoArea2 = r2.calcularAreaCuadrado();
 		
 		System.out.println("El Área de un cuadrado es: " + resultadoArea2);
-		
-		System.out.println("==========================Área del cuadrado 3==========================");
-		
 		Cuadrado r3 = new Cuadrado();
 		
 		r3.lado = 12;
@@ -36,11 +29,10 @@ public class TestCuadrado {
 		double resultadoArea3;
 		resultadoArea3 = r3.calcularAreaCuadrado();
 		
-		System.out.println("El Área de un cuadrado es: " + resultadoArea3);
-		
 		System.out.println("==========================Perímetros de cuadrados==========================");
 
-		System.out.println("==========================Perímetro del cuadrado 1==========================");
+		
+		System.out.println("El Área de un cuadrado es: " + resultadoArea3);
 		
 		Cuadrado r4 = new Cuadrado();
 		
@@ -50,9 +42,6 @@ public class TestCuadrado {
 		resultadoPerimetro = r4.calcularPerimetroCuadrado();
 		
 		System.out.println("El Área de un cuadrado es: " + resultadoPerimetro);
-		
-		System.out.println("==========================Perímetro del cuadrado 2==========================");
-		
 		Cuadrado r5 = new Cuadrado();
 		
 		r5.lado = 7;
@@ -61,9 +50,6 @@ public class TestCuadrado {
 		resultadoPerimetro2 = r5.calcularPerimetroCuadrado();
 		
 		System.out.println("El Área de un cuadrado es: " + resultadoPerimetro2);
-		
-		System.out.println("==========================Perímetro del cuadrado 3==========================");
-		
 		Cuadrado r6 = new Cuadrado();
 		
 		r6.lado = 9;
