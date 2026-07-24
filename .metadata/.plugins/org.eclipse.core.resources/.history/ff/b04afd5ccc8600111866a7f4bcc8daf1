@@ -1,0 +1,15 @@
+package com.krakedev;
+
+public class Cuadrado {
+	public int lado;
+	
+	public double calcularAreaCuadrado() {
+		double areaCuadrado = lado * lado;
+		return areaCuadrado;
+	}
+	
+	public double calcularPerimetroCuadrado() {
+		double perimetroCuadrado = (4 * lado);
+		return perimetroCuadrado;
+	}
+}

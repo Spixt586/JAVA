@@ -12,4 +12,5 @@ public class Cuadrado {
 		double perimetroCuadrado = (4 * lado);
 		return perimetroCuadrado;
 	}
+	
 }

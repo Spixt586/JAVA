@@ -1,0 +1,14 @@
+package com.krakedev;
+
+public class TestFecha {
+
+	public static void main(String[] args) {
+		
+		Fecha f1 = new Fecha();
+		
+		f1.anio = 2;
+		f1.mes = -1;
+
+	}
+
+}

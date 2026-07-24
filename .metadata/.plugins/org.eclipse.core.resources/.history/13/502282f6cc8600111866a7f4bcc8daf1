@@ -1,0 +1,21 @@
+package com.krakedev;
+
+public class TestCirculo {
+
+	public static void main(String[] args) {
+		Circulo c1 = new Circulo();
+		
+		c1.setRadio(6);
+		
+		System.out.println("Radio del circulo: " + c1.getRadio());
+		
+		c1.calcularArea();
+		
+		System.out.println("Area del circulo: " + c1.calcularArea());
+		
+		c1.calcularPerimetro();
+		
+		System.out.printf("Perimetro del circulo: %.2f%n" + c1.calcularPerimetro());
+	}
+
+}

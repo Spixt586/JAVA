@@ -1,0 +1,14 @@
+package com.krakedev;
+
+public class TestCirculo {
+
+	public static void main(String[] args) {
+		Circulo c1 = new Circulo();
+		
+		c1.setRadio(6);
+		
+		System.out.println("Area del circulo: " + c1.getRadio());
+
+	}
+
+}

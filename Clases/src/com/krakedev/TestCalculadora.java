@@ -20,9 +20,10 @@ public class TestCalculadora {
 
 		System.out.println("Resultado de suma: " + r1);
 		System.out.println("Resultado de resta: " + r2);
-		System.out.println("Resultado de multiplicación: " + r3);
+		System.out.println("Resultado de multiplicación: " + r3); 
 		System.out.println("Resultado de divir: " + r4);
-		System.out.println("Resultado de promediar: " + r5);
+		System.out.printf("Resultado de promediar: %.2f%n" , r5);// %.2f%n sirve para la cantidad de decimales
+																 //Y se debe de escribir con printf <--
 		
 		Calculadora m1 = new Calculadora();
 		
