@@ -4,34 +4,67 @@ public class TestRectangulo {
 
 	public static void main(String[] args) {
 
+		System.out.println("====================================RECTÁNGULO 1====================================");
 		
 		Rectangulo r1 = new Rectangulo();		
-		r1.altura = 5;
-		r1.base = 4;
+		r1.setAltura(3);
+		r1.setBase(8);
+
+		System.out.println("La Base del rectángulo es de: "+ r1.getBase() + ". Y la Altura es de: "+ r1.getAltura() );
+		
+		System.out.println("==========================Area del rectángulo 1==========================");
 		
 		int resultadoArea;
 		resultadoArea = r1.calcularArea();	
-		System.out.println("Resultado: " + resultadoArea);
+		System.out.println("Resultado del Área: " + resultadoArea);
 		
+		System.out.println("==========================Perímetro del rectángulo 1==========================");
+		
+		double resultadoPerimetro;
+		resultadoPerimetro = r1.calcularPerimetro();
+		System.out.println("Resultado del Perímetro: " + resultadoPerimetro);
+		
+		System.out.println("====================================RECTÁNGULO 2====================================");
 		
 		Rectangulo r2 = new Rectangulo();
+		r2.setAltura(7);
+		r2.setBase(3);
+		
+		System.out.println("La Base del rectángulo es de: "+ r2.getBase() + ". Y la Altura es de: "+ r2.getAltura());
+		
+		System.out.println("==========================Area del rectángulo 2==========================");
+
 		int resultadoArea2;
-		r2.altura = 8;
-		r2.base = 2;
-		
 		resultadoArea2 = r2.calcularArea();
+		System.out.println("Resultado del Área: " + resultadoArea2);
+		
+		System.out.println("==========================Perímetro del rectángulo 2==========================");
+		
+		double resultadoPerimetro2;
+		resultadoPerimetro2 = r2.calcularPerimetro();
+		System.out.println("Resultado del Perímetro: " + resultadoPerimetro2);
+		
+		System.out.println("====================================RECTÁNGULO 3====================================");
+		
+Rectangulo r3 = new Rectangulo();
 		
 		
-		System.out.println("Resultado rectángulo 2: " + resultadoArea2);
+		r3.setBase(7);
+		r3.setAltura(8);
 		
-		Rectangulo r3 = new Rectangulo();
-		double resultadoPerimetro;
-		r3.base = 4;
-		r3.altura = 2;
+		System.out.println("La Base del rectángulo es de: "+ r3.getBase() + ". Y la Altura es de: "+ r3.getAltura());
 		
-		resultadoPerimetro = r3.calcularPerimetro();
+		System.out.println("==========================Area del rectángulo 2==========================");
 		
-		System.out.println("Resultado del perímetro: " + resultadoPerimetro);
+		int resultadoArea3;
+		resultadoArea3 = r3.calcularArea();
+		System.out.println("Resultado del Área: " + resultadoArea3);
+		
+		System.out.println("==========================Perímetro del rectángulo 3==========================");
+		
+		double resultadoPerimetro3;
+		resultadoPerimetro3 = r3.calcularPerimetro();
+		System.out.println("Resultado del perímetro: " + resultadoPerimetro3);
 		
 	}
 

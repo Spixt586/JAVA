@@ -1,0 +1,40 @@
+package com.krakedev;
+
+public class TestRectangulo {
+
+	public static void main(String[] args) {
+
+		
+		Rectangulo r1 = new Rectangulo();		
+		r1.setAltura(3);
+		r1.setBase(8);
+
+		System.out.println("La Base del rectángulo es de: "+ r1.getBase() + ". Y la Altura es de: "+ r1.getAltura() );
+		
+		int resultadoArea;
+		resultadoArea = r1.calcularArea();	
+		System.out.println("Resultado: " + resultadoArea);
+		
+		
+		Rectangulo r2 = new Rectangulo();
+		int resultadoArea2;
+		r2.setAltura(5);
+		r2.setBase(4);
+		
+		resultadoArea2 = r2.calcularArea();
+		
+		
+		System.out.println("Resultado rectángulo 2: " + resultadoArea2);
+		
+		Rectangulo r3 = new Rectangulo();
+		double resultadoPerimetro;
+		r3.setBase(7);
+		r3.setAltura(8);
+		
+		resultadoPerimetro = r3.calcularPerimetro();
+		
+		System.out.println("Resultado del perímetro: " + resultadoPerimetro);
+		
+	}
+
+}

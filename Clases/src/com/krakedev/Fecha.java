@@ -37,7 +37,7 @@ public class Fecha {
 	//}
 	
 	//public void setDia(int dia) {
-		//this.dia = dia;				//this hace referencia al objeto actual
+		//this.dia = dia;				//this: hace referencia al objeto actual
 	//}
 	//public void setMes(int mes) {
 		//this.mes = mes;
