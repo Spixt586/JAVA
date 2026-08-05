@@ -1,0 +1,50 @@
+package com.krakedev.test;
+
+import com.krakedev.Vehiculo;
+
+public class VehiculoTest {
+
+	public static void main(String[] args) {
+		
+		System.out.println("=====================Vehículo 1: Valores asignados=====================");
+
+		Vehiculo v1 = new Vehiculo("2002", "Chevrolet", "usado");
+		
+		System.out.println("Año: " + v1.getAnio());
+		System.out.println("Marca: " + v1.getMarca());
+		System.out.println("Modelo: " + v1.getModelo());
+		
+		System.out.println("=====================Vehículo 2: Valores asignados=====================");
+
+		Vehiculo v2 = new Vehiculo("2008", "BMW", "nuevo");
+		
+		System.out.println("Año: " + v2.getAnio());
+		System.out.println("Marca: " + v2.getMarca());
+		System.out.println("Modelo: " + v2.getModelo());
+		
+		System.out.println("=====================Vehículo 2: Valores asignados=====================");
+
+		Vehiculo v3 = new Vehiculo("2001", "Hyundai", "el más velos");
+		
+		System.out.println("Año: " + v3.getAnio());
+		System.out.println("Marca: " + v3.getMarca());
+		System.out.println("Modelo: " + v3.getModelo());
+
+		System.out.println("=====================Vehículo 4: Creado y Asignación de Valores=====================");
+	
+		Vehiculo v4 = new Vehiculo("2026", "Tesla", "nuevo");
+		
+		System.out.println("Año: " + v4.getAnio());
+		System.out.println("Marca: " + v4.getMarca());
+		System.out.println("Modelo: " + v4.getModelo());	
+		
+		System.out.println("=====================Vehículo 5 Creado y Asignación de Valores=====================");
+		
+		Vehiculo v5 = new Vehiculo("2003", "Toyota", "usado");
+		
+		System.out.println("Año: " + v5.getAnio());
+		System.out.println("Marca: " + v5.getMarca());
+		System.out.println("Modelo: " + v5.getModelo());	
+	}
+
+}
