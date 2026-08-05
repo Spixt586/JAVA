@@ -1,6 +1,6 @@
 package com.krakedev.test;
 
-import com.krakedev.*;
+import com.krakedev.Mensajeria;
 
 public class TestMensajeria {
 
