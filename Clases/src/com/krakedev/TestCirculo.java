@@ -3,7 +3,7 @@ package com.krakedev;
 public class TestCirculo {
 
 	public static void main(String[] args) {
-		Circulo c1 = new Circulo();
+		Circulo c1 = new Circulo(6);
 		
 		c1.setRadio(6);
 		

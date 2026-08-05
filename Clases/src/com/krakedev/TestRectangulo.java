@@ -6,7 +6,7 @@ public class TestRectangulo {
 
 		System.out.println("====================================RECTÁNGULO 1====================================");
 		
-		Rectangulo r1 = new Rectangulo();		
+		Rectangulo r1 = new Rectangulo(8, 3);		
 		r1.setAltura(3);
 		r1.setBase(8);
 
@@ -26,7 +26,7 @@ public class TestRectangulo {
 		
 		System.out.println("====================================RECTÁNGULO 2====================================");
 		
-		Rectangulo r2 = new Rectangulo();
+		Rectangulo r2 = new Rectangulo(3, 7);
 		r2.setAltura(7);
 		r2.setBase(3);
 		
@@ -46,7 +46,7 @@ public class TestRectangulo {
 		
 		System.out.println("====================================RECTÁNGULO 3====================================");
 		
-Rectangulo r3 = new Rectangulo();
+		Rectangulo r3 = new Rectangulo(8, 7);
 		
 		
 		r3.setBase(7);

@@ -6,6 +6,10 @@ public class Circulo {
 	
 	private double radio;
 	
+	public Circulo(double radio) {
+		this.radio = radio;
+	}
+	
 	public double calcularPerimetro() {
 		double perimetro = 2*Math.PI * radio;
 		return perimetro;

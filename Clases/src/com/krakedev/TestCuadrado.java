@@ -6,15 +6,15 @@ public class TestCuadrado {
 		
 		System.out.println("====================================DIMENSIONES DE CUADRADOS====================================");
 		
-		Cuadrado r1 = new Cuadrado();
+		Cuadrado r1 = new Cuadrado(4);
 		r1.setLado(4);
 		System.out.println("Los lados del Cuadrado 1 miden: " + r1.getLado());
 		
-		Cuadrado r2 = new Cuadrado();
+		Cuadrado r2 = new Cuadrado(7);
 		r2.setLado(7);
 		System.out.println("Los lados del Cuadrado 2 miden: " + r2.getLado());
 		
-		Cuadrado r3 = new Cuadrado();
+		Cuadrado r3 = new Cuadrado(12);
 		r3.setLado(12);
 		System.out.println("Los lados del Cuadrado 3 miden: " + r3.getLado());
 		
