@@ -19,4 +19,8 @@ public class Rectangulo extends Figura{
 	public int calcularPerimetro() {
 		return (2 * base) + (2 * altura);
 	}
+	
+	public double calcularArea() {
+		return base * altura;
+	}
 }

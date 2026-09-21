@@ -30,6 +30,10 @@ public class Figura {
 		return 0;
 	}
 	
+	public double calcularArea(){
+		return 0;
+	}
+	
 	public void graficar(Figura figura){
 		figura.calcularPerimetro(); // ERROR
 	}
