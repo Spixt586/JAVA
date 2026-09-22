@@ -10,7 +10,7 @@ public class Cuadrado extends Figura{
 	}
 	
 	public String toString() {
-		return "Nombre de la figura: " + getNombre() + " || Color: " + getColor();
+		return "Nombre de la figura: " + getNombre() + " || Color: " + getColor(); 
 	}
 	
 	@Override

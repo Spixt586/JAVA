@@ -4,8 +4,9 @@ public class Triangulo extends Figura {
 	
 	private int lado;
 	
-	public Triangulo() {
+	public Triangulo(int lado) {
 		super("Triángulo", "Rojo");
+		this.lado = lado;
 	}
 	
 	public String toString() {
@@ -16,4 +17,7 @@ public class Triangulo extends Figura {
 		return 3 * lado;
 	}
 	
+	public double calcularArea() {
+	    return lado * lado * 0.43301270189;
+	}
 }
