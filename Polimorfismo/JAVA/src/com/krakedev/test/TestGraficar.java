@@ -11,7 +11,7 @@ public class TestGraficar {
 
 	public static void main(String[] args) {
 		Graficador graf = new Graficador();
-		Figura fig = new Figura("Padre", "Marrón");
+		Figura fig = new Rectangulo(12, 20);
 		Cuadrado cua = new Cuadrado(4);
 		Triangulo tri = new Triangulo(6);
 		Rectangulo rect = new Rectangulo(4, 8);
@@ -31,7 +31,7 @@ public class TestGraficar {
 		System.out.println("Perímetro de cuadrado: " + cua.calcularPerimetro());
 		System.out.println("Perímetro de triángulo: " + tri.calcularPerimetro());
 		System.out.println("Perímetro de rectángulo: " + rect.calcularPerimetro());
-		System.out.println("Perímetro de Triángulo Rectángulo: " + triRec.calcularPerimetro());
+		System.out.println("Perímetro de Triángulo Re4ctángulo: " + triRec.calcularPerimetro());
 		System.out.println("Área de figura: " + fig.calcularArea());
 		System.out.println("Área de cuadrado: " + cua.calcularArea());
 		System.out.println("Área de triángulo: " + tri.calcularArea());
