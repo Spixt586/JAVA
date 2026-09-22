@@ -23,8 +23,15 @@ public class TestGraficar {
 		graf.graficar(cua);
 		graf.graficar(tri);
 		graf.graficar(rect);
-		System.out.println(cua.calcularPerimetro());
-		System.out.println(rect.calcularPerimetro());
+		System.out.println("Perímetro de figura: " + fig.calcularPerimetro());
+		System.out.println("Perímetro de cuadrado: " + cua.calcularPerimetro());
+		System.out.println("Perímetro de triángulo: " + tri.calcularPerimetro());
+		System.out.println("Perímetro de rectángulo: " + rect.calcularPerimetro());
+		System.out.println("Área de figura: " + fig.calcularArea());
+		System.out.println("Área de cuadrado: " + cua.calcularArea());
+		System.out.println("Área de triángulo: " + tri.calcularArea());
+		System.out.println("Área de rectángulo: " + rect.calcularArea());
+		
 	}
 
 }

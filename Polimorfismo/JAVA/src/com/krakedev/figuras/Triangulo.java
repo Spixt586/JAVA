@@ -18,6 +18,8 @@ public class Triangulo extends Figura {
 	}
 	
 	public double calcularArea() {
-	    return lado * lado * 0.43301270189;
+		double area;
+	    area = lado * lado * 0.43301270189;
+	    return Math.round(area * 100) / 100;
 	}
 }
