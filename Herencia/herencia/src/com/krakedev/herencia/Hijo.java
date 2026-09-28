@@ -19,9 +19,11 @@ public class Hijo extends Padre {
 
 	@Override
 	public String toString() {
-		return "Defecto: " + getDefectos() + ". Virtudes: " + getVirtudes() + ". Juguetes: " + juguetes + ". Total Ahorrado: " + getTotalAhorrado();
+		return "Nombre: " + getNombre() + ". Defecto: " + getDefectos() + ". Virtudes: " + getVirtudes() + ". Juguetes: " + juguetes + ". Total Ahorrado: " + getTotalAhorrado();
 	}
 	
+	
+	@Override
 	public void ahorrar(double monto) {
 		super.ahorrar(monto*0.5);
 	}

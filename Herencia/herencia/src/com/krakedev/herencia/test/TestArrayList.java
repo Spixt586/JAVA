@@ -9,26 +9,21 @@ public class TestArrayList {
 		
 		ArrayList<Hija> listaHijas = new ArrayList<Hija>();
 		
-		Hija hija1 = new Hija();
+		Hija hija1 = new Hija(2,3, "Valeria");
 		
-		hija1.setDefectos(2);
-		hija1.setVirtudes(3);
 		
 		listaHijas.add(hija1);
 		
-		Hija hija2 = new Hija();
+		Hija hija2 = new Hija(5,8, "Susana");
 		
-		hija2.setDefectos(5);
-		hija2.setVirtudes(8);
 		
 		listaHijas.add(hija2);
 		
-		Hija hija3 = new Hija();
-		
-		hija3.setDefectos(4);
-		hija3.setVirtudes(6);
+		Hija hija3 = new Hija(4,6, "Belen");
 		
 		listaHijas.add(hija1);
+		listaHijas.add(hija2);
+		listaHijas.add(hija3);
 		
 		System.out.println(listaHijas);
 
